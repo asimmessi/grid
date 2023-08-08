@@ -85,7 +85,7 @@ footer{
 
 
 /* media for tablet */
-@media(max-width: 992){
+@media(550px< width<= 992px){
     .wrapper{
         gap: 5px;
         grid-template-columns: repeat(2, 1fr);
@@ -106,7 +106,7 @@ footer{
 
 /* media */
 
-@media(max-width: 768px){
+@media(width<550px){
     .wrapper{
         gap: 5px;
         grid-template-columns: 1fr;
@@ -118,6 +118,7 @@ footer{
         "off2"
         "side-menu"
         "tags"
+        "main"
         "main"
         "recent"
         "footer";
